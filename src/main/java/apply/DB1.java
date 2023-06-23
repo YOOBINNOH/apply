@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DB1 {
 
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/hanahr?useUnicode=true&characterEncoding=utf8";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "1234";
+    private static final String JDBC_URL = "jdbc:mysql://apply.cwk0hb539k4f.ap-northeast-2.rds.amazonaws.com:3306/apply?useUnicode=true&characterEncoding=utf8";
+    private static final String USERNAME = "admin";
+    private static final String PASSWORD = "hanaro6666!";
 
     public static Connection getConnection() {
         Connection connection = null;

@@ -11,7 +11,7 @@ public class ApplyDao {
 
         System.out.println("Apply DB success");
 
-        String query = "INSERT into memberinfo (memberName, memberGender , memberBirth, memberAddress , memberCareer,memberPhone , memberEmail, memberMajor) values (?,?,?,?,?,?,?,?)";
+        String query = "INSERT into memberInfo (memberName, memberGender , memberBirth, memberAddress , memberCareer,memberPhone , memberEmail, memberMajor) values (?,?,?,?,?,?,?,?)";
 
         PreparedStatement pstmt = null;
         pstmt = connection.prepareStatement(query);
